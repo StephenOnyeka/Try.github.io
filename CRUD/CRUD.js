@@ -26,9 +26,9 @@ document.querySelector('#student-form').addEventListener('submit', (e) => {
     e.preventDefault();
 
     //get form values
-    const firstName = document.querySelector('#firstName').value;
-    const lastName = document.querySelector('#lastName').value;
-    const rollNo = document.querySelector('#rollNo').value;
+    const firstName = document.querySelector('.firstName').value;
+    const lastName = document.querySelector('.lastName').value;
+    const rollNo = document.querySelector('.rollNo').value;
 
     // validate
     if (firstName == "" || lastName == "" || rollNo == ""){
